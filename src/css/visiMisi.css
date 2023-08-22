@@ -1,0 +1,145 @@
+.hero-section-visi {
+  background-image: url(../assets/visi-misi-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.containers-visi {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.cont-visi {
+  margin-inline: 6rem;
+}
+.containers-visi h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.row-vismis{
+    margin: 0 auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 4rem;
+    /* background-color: #b50b0b; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  
+}
+
+.row-vismis .vismis h2 {
+  color: #b50b0b;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.row-vismis .vismis p {
+  color: black;
+  font-size: 1.4rem;
+}
+
+.vismis li {
+  font-size: 1.4rem;
+  color: black;
+  text-align: start;
+}
+.vismis b {
+  font-size: 1.2rem;
+}
+
+.vision-mission {
+  padding: 50px 0;
+  /* margin-top: 3rem; */
+  /* color: black; */
+}
+
+.vision-mission h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.vision-mission p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.vision-mission ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.vision-mission ul li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.vision-mission ul li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 300px;
+  }
+  .cont-visi {
+    margin-inline: 2rem;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+  .vision-mission .col-lg-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .cont-visi {
+    margin-inline: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .containers-visi h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .row .vismis h2 {
+    color: #b50b0b;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .row .vismis p {
+    color: black;
+    font-size: 1rem;
+  }
+  
+  .vismis li {
+    font-size: 1rem;
+    color: black;
+    text-align: start;
+  }
+  .vismis b {
+    font-size: 1.2rem;
+  }
+  
+}

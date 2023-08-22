@@ -1,0 +1,153 @@
+.main-hero-kontakkami {
+  margin-top: 5rem;
+  /* background-color: red; */
+  display: flex;
+}
+
+.img-kontakKami {
+  width: 120vw;
+  height: 55vh;
+  background-image: url("https://i.pinimg.com/564x/ec/44/c6/ec44c6e3e2458008685a3c2e9ca575fc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+.header-kontak {
+  background-color: #b50b0b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 1.5rem;
+}
+
+.header-kontak h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+.header-kontak p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.conten-kontak {
+  margin-inline: 1.5rem;
+}
+.conten-kontak {
+  margin-top: 5rem;
+  /* margin-bottom: 3rem; */
+  /* background-color: #b50b0b; */
+}
+.conten-kontak h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #b50b0b;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.conten-kontak p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  /* margin: 0 auto; */
+  /* max-width: 1000px; */
+  padding: 2rem;
+  /* background-color: red; */
+}
+
+.contact-item {
+  text-align: center;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.contact-item h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #b50b0b;
+  font-weight: 600;
+}
+
+.contact-item p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-item a {
+  font-size: 1.1rem;
+  color: #333;
+  color: #b50b0b;
+  text-decoration: none;
+}
+.icon {
+  color: #b50b0b;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .main-hero-kontakkami {
+    flex-direction: column;
+  }
+  .img-kontakKami {
+    width: 100%;
+  }
+  .header-kontak {
+    padding-block: 2rem;
+  }
+  .header-kontak h1 {
+    font-size: 2.5rem;
+  }
+  .header-kontak p {
+    font-size: 1.1rem;
+  }
+  .conten-kontak h2 {
+    font-size: 2rem;
+  }
+  .conten-kontak p {
+    font-size: 1rem;
+  }
+  .contact-container h3 {
+    font-size: 1.5rem;
+  }
+  .contact-container p {
+    font-size: 1rem;
+  }
+  .contact-container a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .img-kontakKami {
+    width: 100%;
+  }
+  .main-hero-kontakkami {
+    flex-direction: column;
+  }
+  .header-kontak {
+    padding-block: 2rem;
+  }
+}

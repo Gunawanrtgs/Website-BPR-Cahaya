@@ -1,0 +1,75 @@
+.clients-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* background-color: burlywood; */
+  padding: 0;
+}
+.clients-container .slick-list {
+  padding: 0;
+}
+.clients-container .slick-track {
+  padding: 0;
+  width: 100%;
+  /* background-color: #f50f0f; */
+  /* box-sizing: border-box; */
+}
+
+.clients-container span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.clients-container h1 {
+  color: black;
+  /* text-transform: capitalize; */
+}
+
+/* Hero Content */
+.testimonial {
+  position: relative;
+}
+
+.buttons-clients {
+  position: absolute;
+  right: 0.7rem;
+  bottom: -2rem;
+  /* background-color: black; */
+}
+
+.buttons-clients button {
+  background-color: transparent;
+  margin-left: 0.5rem;
+  border: none;
+  color: #f50f0f;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Slicks Css */
+.slick-dots {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.slick-dots li button::before {
+  content: " ";
+}
+.slick-dots li button {
+  width: 9px;
+  height: 4px;
+  background-color: #f50f0f;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50px;
+}
+
+.slick-dots li.slick-active button {
+  background: rgb(221, 116, 116);
+  width: 15px;
+}
+
+.slick-dots li {
+  margin: 0;
+}

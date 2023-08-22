@@ -1,0 +1,103 @@
+.hero-img-kreditKonsumtif {
+  background-image: url(../assets/kredit-konsumtif.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.fitur-manfaat-prasayart-kredit-konsumtif {
+  background-image: url(/src/assets/kredit-konsumtif-hero.avif);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding-inline: 8rem;
+  padding-block: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.fitur-manfaat-prasayart-kredit-konsumtif .site-fitur-manfaat-simpanan .btn{
+  /* width: max-content; */
+}
+
+@media (max-width: 1400px) {
+  .fitur-manfaat-prasayart-kredit-konsumtif {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    /* background-color: #b50b0b; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  /* .cont-fitur-manfaat-kredit {
+    flex-direction: row;
+  } */
+}
+
+@media (max-width: 1200px) {
+  .fitur-manfaat-prasayart-kredit-konsumtif {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    /* background-color: #b50b0b; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .fitur-manfaat-prasayart-kredit-konsumtif {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    /* background-color: #b50b0b; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit-konsumtif {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit-konsumtif {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+    padding-block: 3rem;
+  }
+}

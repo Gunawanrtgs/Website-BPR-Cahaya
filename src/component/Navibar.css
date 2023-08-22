@@ -1,0 +1,244 @@
+/* 
+------------------
+CSS Navigation Bar
+------------------
+*/
+.nav-logo {
+  width: 16rem;
+  margin: none;
+  padding: none;
+}
+
+.icon-navBar {
+  color: #b50b0b;
+}
+.nav-link {
+  font-size: 1.3rem;
+  color: black;
+}
+/* 
+-------------------------
+Responsive Navigation bar
+-------------------------
+*/
+@media (max-width: 992px) {
+  .nav-logo {
+    width: 12rem;
+    margin: none;
+    padding: none;
+  }
+  .nav-link {
+    font-size: 1rem;
+    color: black;
+  }
+}
+@media (max-width: 768px) {
+  .nav-logo {
+    width: 12rem;
+    margin: none;
+    padding: none;
+  }
+}
+@media (max-width: 480px) {
+  .nav-logo {
+    width: 12rem;
+    margin: none;
+    padding: none;
+  }
+}
+@media (max-width: 360px) {
+  .brand {
+    font-size: 100%;
+  }
+  .nav-logo {
+    width: 6rem;
+    margin: none;
+    padding: none;
+  }
+}
+
+/* 
+--------------
+CSS Footers
+--------------
+
+*/
+.cont-footer {
+  background-color: #b50b0b;
+  padding-block: 2rem;
+  color: aliceblue;
+}
+
+.container-footer {
+  /* max-width: 1100px; */
+  margin-inline: 8rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.footer-about,
+.footer-social {
+  flex-basis: 35%;
+  margin-inline-end: 3rem;
+  /* background-color: rgb(87, 151, 206); */
+}
+.footer-address {
+  flex-basis: 35%;
+}
+
+.footer-about h3,
+.footer-call h3,
+.footer-social h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer-address h3 {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.footer-about p,
+.footer-call p,
+.footer-address p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.footer-social ul {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social ul li {
+  margin-right: 1rem;
+}
+
+.footer-social ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-social ul a {
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+}
+.footer-address img {
+  height: 4rem;
+}
+.footer-address h4 {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.logoLegal {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-inline: 3rem;
+}
+.itemLegal {
+  align-items: center;
+  text-align: center;
+}
+.footer-1 {
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+}
+.copyright {
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 1300px) {
+  .container-footer {
+    flex-direction: column;
+  }
+  .footer-address,
+  .footer-social {
+    margin-block: 3rem;
+    align-items: start;
+  }
+  .itemLegal {
+    margin-inline: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-footer {
+    flex-direction: column;
+  }
+
+  .footer-about,
+  .footer-social,
+  .footer-address {
+    flex-basis: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .brand {
+    font-size: 100%;
+  }
+  .footer-about,
+  .footer-social {
+    margin-inline-end: 0;
+    align-items: center;
+    text-align: center;
+
+  }
+  .logoLegal{
+    display: flex;
+    flex-direction: column;
+    padding-block: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-footer {
+    flex-direction: column;
+  }
+  .footer-about,
+  .footer-social,
+  .footer-address {
+    margin-inline: 1.5rem;
+    /* background-color: aquamarine; */
+  }
+  .cont-footer {
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .container-footer {
+    margin-inline: 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .container-footer {
+    flex-direction: column;
+  }
+  .footer-about,
+  .footer-social,
+  .footer-address {
+    margin-inline: 1.1rem;
+  }
+  .cont-footer {
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}

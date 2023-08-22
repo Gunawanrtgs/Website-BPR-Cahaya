@@ -1,0 +1,172 @@
+/* 
+------------------------
+hero struktur organisasi
+------------------------
+\ */
+.hero-section-struktur {
+  background-image: url(/src/assets/struktur-organisasi-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+/* 
+------------
+cart profile
+------------
+*/
+.card-strukturOrganisasi {
+  position: relative;
+  display: inline-block;
+  margin: 0.3rem;
+}
+
+.card-strukturOrganisasi img {
+  width: 300px;
+  height: 300px;
+}
+
+.card-strukturOrganisasi .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  opacity: 1;
+  transition: all 0.3s ease;
+  padding-bottom: 1rem;
+  padding-inline: 0.5rem;
+}
+.overlay h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+.overlay p {
+  font-size: 1rem;
+}
+.card-strukturOrganisasi:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-strukturOrganisasi .overlay h3,
+.card-strukturOrganisasi .overlay p {
+  margin: 0;
+  text-align: center;
+}
+.profil_SDM {
+  width: 300px;
+}
+.profil_SDM h3 {
+  font-size: 1rem;
+}
+.profil_SDM li {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+.cont-cart-profil {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+/* 
+------------------
+batas
+-------------------
+*/
+.cont-profil-SDM {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-inline: 8rem;
+}
+.cont-profil-SDM h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #b50b0b;
+}
+.cont-profil-SDM h3 {
+  font-size: 1.5rem;
+}
+
+.kategori-Sdm {
+  display: flex;
+  margin-top: 0.3rem;
+}
+.kategori-Sdm button {
+  border: none;
+  background-color: #b50b0b;
+  padding: 1rem;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+}
+.kategori-Sdm button:hover {
+  background-color: #720b0b;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .profile-card {
+    margin-bottom: 20px;
+  }
+
+  .profile-card:hover {
+    height: 200px;
+    width: 150px;
+  }
+
+  .profile-card:hover .img {
+    transform: translateY(-30px);
+  }
+
+  .caption {
+    transform: translateY(-50px);
+  }
+
+  .profile-card:hover .caption {
+    transform: translateY(-25px);
+  }
+
+  .caption h3 {
+    font-size: 16px;
+  }
+
+  .caption p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .cont-profil-SDM {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-inline: 0;
+    /* background-color: aqua; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 1rem; */
+    align-items: center;
+  }
+  .cont-profil-SDM h2 {
+    text-align: center;
+  }
+  .cont-cart-profil {
+    align-items: center;
+    /* background-color: #b50b0b; */
+    justify-content: center;
+  }
+}
+@media (max-width: 360px) {
+}

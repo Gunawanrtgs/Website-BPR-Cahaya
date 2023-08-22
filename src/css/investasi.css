@@ -1,0 +1,99 @@
+.hero-img-investasi {
+  background-image: url(../assets/investasi-hero.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 5rem;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.fitur-manfaat-prasayart-kredit-investasi {
+  background-image: url(/src/assets/investasi.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding-inline: 8rem;
+  padding-block: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+@media (max-width: 1400px) {
+  .fitur-manfaat-prasayart-kredit-investasi {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    /* background-color: #b50b0b; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  /* .cont-fitur-manfaat-kredit {
+    flex-direction: row;
+  } */
+}
+
+@media (max-width: 1200px) {
+  .fitur-manfaat-prasayart-kredit-investasi {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    /* background-color: #b50b0b; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .fitur-manfaat-prasayart-kredit-investasi {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    /* background-color: #b50b0b; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit-investasi {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit-investasi {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+    padding-block: 3rem;
+  }
+}

@@ -1,0 +1,81 @@
+.hero-section-keuangan {
+  background-image: url("https://img.freepik.com/free-photo/business-people-using-financial-charts-meeting-office_1232-2755.jpg?w=740&t=st=1687771488~exp=1687772088~hmac=18404e52fd2ceaff9dc2795fc257d64f560939e89f4a3c2ea5bf08c862205acd");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.cont-keuangan {
+  margin-block: 3rem;
+  margin-inline: 6rem;
+  /* background-color: #b50b0b; */
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.cont-keuangan h2 {
+  font-size: 2.4rem;
+  color: #b50b0b;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.cont-keuangan .accordion-button {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.list-lap-keuangan {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.list-lap-keuangan p {
+  font-size: 1.1rem;
+}
+.list-lap-keuangan h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #b50b0b;
+}
+.list-icon {
+  color: #b50b0b;
+}
+.list-lap-keuangan button {
+  font-size: 1rem;
+  border: 1px solid #b50b0b;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: none;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.list-lap-keuangan button:hover {
+  background-color: #b50b0b;
+  color: white;
+  scale: 1.1;
+}
+
+@media screen and (max-width: 768px) {
+  .cont-keuangan {
+    margin-inline: 2rem;
+  }
+
+  .cont-keuangan ul {
+    flex-direction: column;
+  }
+
+  .cont-keuangan li {
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .list-lap-keuangan{
+    flex-direction: column;
+  }
+}

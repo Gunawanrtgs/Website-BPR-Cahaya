@@ -1,0 +1,116 @@
+.hero-section-PPOB {
+  background-image: url("https://images.unsplash.com/photo-1556741533-411cf82e4e2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.cont-PPOB {
+  display: flex;
+  margin-inline: 6rem;
+  margin-block: 6rem;
+  align-items: center;
+  justify-content: center;
+  /* gap: 3rem; */
+}
+.cont-desc-PPOB {
+  flex-basis: 50%;
+  /* background-color: rebeccapurple; */
+}
+.cont-desc-PPOB h2 {
+  font-size: 2.4rem;
+  color: #b50b0b;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.cont-desc-PPOB p {
+  font-size: 1.4rem;
+}
+.cont-img-PPOB {
+  flex-basis: 50%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+}
+.cont-img-PPOB img {
+  width: 50vh;
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1300px) {
+}
+@media (max-width: 1200px) {
+  .cont-PPOB {
+    display: flex;
+    margin-inline: 3rem;
+    margin-block: 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+@media (max-width: 992px) {
+  .cont-PPOB {
+    display: flex;
+    margin-inline: 3rem;
+    margin-block: 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .cont-desc-PPOB {
+    margin-bottom: 3rem;
+  }
+  .hero-section-PPOB h1 {
+    font-size: 2.8rem;
+  }
+  .cont-desc-PPOB h2 {
+    font-size: 2.2rem;
+  }
+  .cont-desc-PPOB p {
+    font-size: 1.2rem;
+  }
+  .cont-img-PPOB img {
+    width: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .cont-PPOB {
+    flex-direction: column;
+  }
+  .cont-desc-PPOB {
+    margin-bottom: 3rem;
+  }
+  .hero-section-PPOB h1 {
+    font-size: 2.8rem;
+  }
+  .cont-desc-PPOB h2 {
+    font-size: 2.2rem;
+  }
+  .cont-desc-PPOB p {
+    font-size: 1.2rem;
+  }
+  .cont-img-PPOB img {
+    width: 70vh;
+  }
+}
+@media (max-width: 480px) {
+  .cont-PPOB {
+    flex-direction: column;
+    margin-inline: 2rem;
+    margin-block: 2rem;
+    gap: 1rem;
+  }
+  .cont-desc-PPOB h2 {
+    font-size: 2rem;
+  }
+  .cont-desc-PPOB p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 360px) {
+}

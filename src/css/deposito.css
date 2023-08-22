@@ -1,0 +1,177 @@
+/* 
+-------------
+hero deposito
+-------------
+*/
+
+.hero-img-tabungan {
+  /* background-image: url("https://i.ibb.co/YW9rQrD/front-view-plants-with-coins-stacked-dirt-banknote.jpg"); */
+  background-image: url(../assets/deposito-hero1.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  margin-top: 5rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly; */
+  padding-top: 5rem;
+}
+.hero-section-tabungan {
+  height: auto;
+  width: 35vw;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.hero-section-tabungan h1 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #b50b0b;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section-tabungan p {
+  color: whitesmoke;
+  font-weight: 0.5rem;
+  font-size: 1.2rem;
+}
+.table-deposito {
+  background: white;
+  border: 5px solid #b50b0b;
+  font-size: 1rem;
+  width: 28%;
+  margin-left: 79rem;
+}
+
+
+
+/* 
+--------------------------
+fitur dan manfaat deposito
+--------------------------
+*/
+.fitur-manfaat-prasayart-deposito {
+  background-image: url(../assets/deposito1.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding-inline: 8rem;
+  padding-block: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.cont-fitur-manfaat-kanan .site-prasarat-simpanan .accordion-button {
+  font-size: 1.4rem;
+}
+
+/* Accordion form */
+.site-fitur-manfaat-simpanan .accordion {
+  width: 50%;
+}
+
+@media (max-width: 1400px) {
+  .fitur-manfaat-prasayart-deposito {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 1300px) {
+  .fitur-manfaat-prasayart-deposito {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 1200px) {
+  .features {
+    flex-direction: column;
+    padding: 8rem;
+  }
+  .hero-img-tabungan {
+    height: 100vh;
+    /* flex-direction: column; */
+  }
+}
+@media (max-width: 992px) {
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-deposito {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    /* background-color: #adb50b; */
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .mid-container h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-img-tabungan {
+    flex-direction: column;
+  }
+  .hero-img-tabungan .hero-section-tabungan {
+    width: 60vw;
+  }
+  .fitur-manfaat-prasayart-deposito {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+  .hero-section-tabungan {
+    height: auto;
+    width: 35vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 480px) {
+  .fitur-manfaat-prasayart-deposito {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 3rem;
+    padding-block: 3rem;
+  }
+  .hero-section-tabungan {
+    width: 86vw;
+  }
+  .site-prasarat-kredit h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .fitur-manfaat-prasayart-deposito {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+  }
+}
