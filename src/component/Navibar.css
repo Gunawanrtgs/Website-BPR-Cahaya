@@ -17,7 +17,8 @@ CSS Navigation Bar
   color: black;
 }
 .navbrand img{
-  width: 10%;
+  height: 3rem;
+  width: auto;
 }
 /* 
 -------------------------
