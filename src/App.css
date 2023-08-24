@@ -72,6 +72,12 @@ html {
   color: #fff;
   background: #b50b0b;
 }
+:root{
+  --tealgreen: #0086AC;
+  --bluegrotto: #1181C8;
+  --putih: #F2F0FC;
+  --merah: #FF0000;
+}
 /* p {
   font-size: 14px;
   line-height: 25px;

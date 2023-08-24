@@ -51,7 +51,7 @@ profil dan sejarah singkat BPR sembada
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 .sejarah-desc h2 {
-  color: #b50b0b;
+  color: var(--bluegrotto);
   font-size: 2.4rem;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -78,7 +78,7 @@ road map sejarah BPR
 }
 .cont-sejarah h1 {
   margin-block: auto;
-  color: #b50b0b;
+  color: var(--bluegrotto);
   font-size: 3.5rem;
   font-weight: 600;
 }

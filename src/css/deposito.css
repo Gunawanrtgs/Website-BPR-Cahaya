@@ -12,10 +12,9 @@ hero deposito
   background-repeat: no-repeat;
   width: 100%;
   height: 80vh;
-  margin-top: 5rem;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-evenly; */
+  display: flex;
+  align-items: start;
+  justify-content: end;
   padding-top: 5rem;
 }
 .hero-section-tabungan {
@@ -37,11 +36,13 @@ hero deposito
   font-size: 1.2rem;
 }
 .table-deposito {
-  background: white;
-  border: 5px solid #b50b0b;
   font-size: 1rem;
-  width: 28%;
-  margin-left: 79rem;
+  margin: 5rem 5rem 0 0;
+}
+.table-deposito tbody,
+.table-deposito thead{
+  background: white;
+  border: 5px solid var(--tealgreen);
 }
 
 

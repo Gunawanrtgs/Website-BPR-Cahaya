@@ -49,13 +49,13 @@ const Kreditkerja = () => {
         data-aos-duration="500"
         data-aos-once="true"
       >
-        <h2>Pinjaman Modal Kerja Sembada</h2>
+        <h2>Pinjaman Modal Kerja</h2>
         <p>
-          Menghadirkan layanan pinjaman yang fleksibel sesuai dengan{" "}
-          <i>cashflow </i>
-          keuangan bisnis usaha Anda, dengan metode pembayaran pembayaran bunga
-          bulanan dan pokok pinjaman dapat dibayarkan di akhir periode pinjaman
-          selama jangka waktu 1 tahun
+          Merupakan kredit yang digunakan untuk keperluan sebagai modal usaha.
+          Produk kredit ini diberikan kepada nasabah (debitur) untuk memenuhi
+          kebutuhan modal kerja debitur. Bank Cahaya menyediakan fasilitas
+          kredit modal kerja yang bervariasi, baik untuk usaha skala kecil
+          maupun skala menengah sesuai dengan kebutuhan debitur.
         </p>
         {/* <p>
           Bank Sembada menghadirkan produk keuangan Kredit Modal yang di tujukan

@@ -22,22 +22,23 @@ const Deposito = () => {
             <tbody>
               <tr>
                 <th scope="row">1 Bulan</th>
-                <td>5.00% p.a.</td>
+                <td>3.50% p.a.</td>
               </tr>
               <tr>
                 <th scope="row">3 Bulan</th>
-                <td>5.25% p.a.</td>
+                <td>4.00% p.a.</td>
               </tr>
               <tr>
                 <th scope="row">6 Bulan</th>
-                <td>5.50% p.a.</td>
+                <td>4.25% p.a.</td>
               </tr>
               <tr>
                 <th scope="row">12 Bulan</th>
-                <td>5.75% p.a.</td>
+                <td>4.50% p.a.</td>
               </tr>
             </tbody>
           </table>
+         
         </div>
       </div>
       <section
@@ -46,11 +47,9 @@ const Deposito = () => {
         data-aos-duration="500"
         data-aos-once="true"
       >
-        <h2>Deposito Sembada</h2>
+        <h2>Deposito Cahaya</h2>
         <p>
-          Bank Multi Sembada Dana memberikan solusi investasi berjangka dalam
-          bentuk deposito dengan proses yang mudah dengan suku bunga menarik dan
-          dapat digunakan sebagai jaminan kredit.
+        Bank Cahaya menawarkan produk deposito ini dengan beberapa pilihan sesuai jangka waktunya yaitu 1 bulan, 3 bulan, 6 bulan dan 12 bulan dengan suku bunga yang bervariasi dan bersaing serta dapat diperpanjang secara otomatis sesuai konfirmasi awal.
         </p>
       </section>
 
@@ -105,9 +104,9 @@ const Deposito = () => {
                 <h3>Menguntungkan</h3>
                 <p>
                   Deposito dengan{" "}
-                  <span style={{ color: "red" }}>suku bunga yang tinggi*</span>{" "}
+                  <span style={{ color: "var(--tealgreen)" }}>suku bunga yang tinggi*</span>{" "}
                   dan menguntungkan s.d.
-                  <span style={{ color: "red" }}>5,75 p.a.</span>
+                  <span style={{ color: "var(--tealgreen)" }}>5,75 p.a.</span>
                 </p>
                 <br />
                 <i>

@@ -15,7 +15,7 @@ const Navibar = () => {
       {/* Brand Company */}
       <Navbar.Brand href="#home" as={Link} to="/" className="navbrand">
         <img
-          src="./assets/logoBaru.jpg"
+          src="./assets/logoCahaya.png"
           alt=""
           className="nav-logo mx-0 py-0 px-0"
         />
@@ -31,14 +31,8 @@ const Navibar = () => {
             title="Simpanan"
             menuVariant="light"
           >
-            <NavDropdown.Item href="./simKonvensional">
-              Simpanan Konvensional
-            </NavDropdown.Item>
-            <NavDropdown.Item
-              href="https://user.depositobpr.id/deposan/deposito-bpr/deposito-detail/BPR-Multi-Sembada-Dana-6-bulan-5-5-pa-1349530"
-              target="blank"
-            >
-              Simpanan Online
+            <NavDropdown.Item href="./tabunganCahaya">
+              Tabungan Cahaya
             </NavDropdown.Item>
             <NavDropdown.Item href="./deposito">Deposito</NavDropdown.Item>
           </NavDropdown>
@@ -51,11 +45,21 @@ const Navibar = () => {
             <NavDropdown.Item href="./kreditKerja">
               Pinjaman Modal Kerja
             </NavDropdown.Item>
-            <NavDropdown.Item href="./kreditKonsumtif">
-              Pinjaman Konsumtif  
-            </NavDropdown.Item>
             <NavDropdown.Item href="./investasi">
               Pinjaman Investasi
+            </NavDropdown.Item> 
+            <NavDropdown.Item href="./kreditRumah">
+              Pinjaman Pemilikan Rumah
+            </NavDropdown.Item>
+            <NavDropdown.Item href="./kreditKendaraan">
+              Pinjaman Pemilikan Kendaraan
+            </NavDropdown.Item>
+
+            <NavDropdown.Item href="./kreditKonsumtif">
+              Pinjaman Konsumtif
+            </NavDropdown.Item>
+            <NavDropdown.Item href="./kreditMultiguna">
+              Pinjaman Multiguna
             </NavDropdown.Item>
           </NavDropdown>
 

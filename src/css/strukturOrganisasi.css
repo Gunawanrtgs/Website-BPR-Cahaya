@@ -92,7 +92,7 @@ batas
 .cont-profil-SDM h2 {
   font-size: 2rem;
   font-weight: 600;
-  color: #b50b0b;
+  color: var(--bluegrotto);
 }
 .cont-profil-SDM h3 {
   font-size: 1.5rem;
@@ -104,14 +104,14 @@ batas
 }
 .kategori-Sdm button {
   border: none;
-  background-color: #b50b0b;
+  background-color: var(--bluegrotto);
   padding: 1rem;
   color: #fff;
   transition: all 0.3s ease;
   font-size: 0.8rem;
 }
 .kategori-Sdm button:hover {
-  background-color: #720b0b;
+  background-color: var(--tealgreen);
 }
 
 @media (max-width: 1200px) {

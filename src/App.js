@@ -12,12 +12,15 @@ import SideMenu from "./component/SideMenu";
 // import All Page
 import Home from "./pages/home";
 // simpanan
-import SimpKonvensional from "./pages/simKonvensional";
+import TabunganCahaya from "./pages/tabunganCahaya";
 
 // pinjaman
 import Kreditkerja from "./pages/kreditKeja";
 import KreditKonsumtif from "./pages/kreditKonsumtif";
 import Investasi from "./pages/investasi";
+import KreditKendaraan from "./pages/kreditKendaraan";
+import KreditRumah from "./pages/kreditRumah";
+import KreditMultiguna from "./pages/kreditMultiguna";
 
 // form produk
 import FormSimpanan from "./pages/formSimpanan";
@@ -45,6 +48,7 @@ import Deposito from "./pages/deposito";
 import formsdb from "./pages/formsdb";
 import Formsdb from "./pages/formsdb";
 
+
 class App extends React.Component {
   componentDidMount() {
     AOS.init();
@@ -58,7 +62,11 @@ class App extends React.Component {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/deposito" element={<Deposito />} />
-          <Route path="/simKonvensional" element={<SimpKonvensional />} />
+          <Route path="/tabunganCahaya" element={<TabunganCahaya />} />
+          <Route path="/kreditKendaraan" element={<KreditKendaraan />} />
+          <Route path="/kreditMultiguna" element={<KreditMultiguna />} />
+          <Route path="/kreditRumah" element={<KreditRumah />} />
+          
           <Route path="/kreditKerja" element={<Kreditkerja />} />
           <Route path="/kreditKonsumtif" element={<KreditKonsumtif />} />
           <Route path="/investasi" element={<Investasi />} />

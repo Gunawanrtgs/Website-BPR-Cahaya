@@ -93,7 +93,7 @@
   text-decoration: none;
 }
 .icon {
-  color: #b50b0b;
+  color: var(--tealgreen);
   margin-bottom: 0.5rem;
 }
 @media (max-width: 1300px) {

@@ -8,6 +8,13 @@
   justify-content: center;
   margin-top: 5rem;
 }
+
+h1 {
+  font-size: 2.4rem;
+  color: var(--bluegrotto);
+  font-weight: 600;
+}
+
 .cont-pengaduan {
   margin-inline: 6rem;
   margin-block: 3rem;
@@ -16,12 +23,19 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  margin-block: 2rem;
 }
-.cont-cara-pengaduan div h2 {
-  color: #b50b0b;
+
+.cont-cara-pengaduan h4,
+ol {
+  margin-block: 1rem;
+}
+.cont-cara-pengaduan h2 {
+  color: var(--bluegrotto);
   font-size: 2.4rem;
   font-weight: 600;
 }
+
 .cont-cara-pengaduan div li {
   font-size: 1.4rem;
 }
@@ -45,14 +59,39 @@
 }
 .cont-langkah-pengaduan h1 {
   margin-block: auto;
-  color: #b50b0b;
+  color: var(--bluegrotto);
   font-size: 3.5rem;
   font-weight: 600;
 }
-.item-langkah-pengaduan {
+.prosedur-pengaduan{
   margin-inline: 6rem;
   margin-block: 3rem;
+  display: flex;
 }
+
+.prosedur-pengaduan p{
+ font-size: 1.4rem;
+ margin-bottom: 2rem;
+}
+
+.rahasia-nsb{
+  display: flex;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+}
+.rahasia-nsb div{
+  flex-basis: 50%;
+  margin-inline: 0.5rem;
+}
+.rahasia-nsb p{
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+.rahasia-nsb ol{
+  font-size: 1.2rem;
+}
+
 @media (max-width: 1400px) {
   .cont-pengaduan {
     margin-inline: 3rem;

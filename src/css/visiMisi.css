@@ -37,7 +37,7 @@
 }
 
 .row-vismis .vismis h2 {
-  color: #b50b0b;
+  color: var(--bluegrotto);
   font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 1rem;

@@ -17,7 +17,7 @@ hero kredit
 }
 
 .feature i {
-  color: #f50f0f;
+  color: var(--tealgreen);
 }
 /* 
 ---------------------------
@@ -32,7 +32,7 @@ deskripsi kredi modal kerja
 .deskripsi-kedit-kerja h2 {
   font-size: 2.4rem;
   text-align: center;
-  color: #b50b0b;
+  color: var(--bluegrotto);
   margin-bottom: 0.5rem;
   font-weight: 600;
 }

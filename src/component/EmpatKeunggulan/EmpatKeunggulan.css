@@ -1,6 +1,6 @@
 .container-project {
   height: 15rem;
-  background-color: #b50b0b;
+  background-color: var(--tealgreen);
   margin-block: 2rem;
   padding: 0.5rem 0.5rem;
   border-radius: 20px;
@@ -69,7 +69,7 @@
 .container-projects .title {
   font-size: 2.2rem;
   text-align: center;
-  color: #b50b0b;
+  color: var(--bluegrotto);
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
@@ -99,7 +99,7 @@
   margin-bottom: 1.5rem;
   font-size: 2.4rem;
   font-weight: 600;
-  color: #b50b0b;
+  color: var(--bluegrotto);
 }
 
 .img-keunggulan {

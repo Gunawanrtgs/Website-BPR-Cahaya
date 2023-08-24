@@ -18,47 +18,48 @@ const ProfilPerus = () => {
           data-aos-duration="500"
           data-aos-once="true"
         >
-          <h2>Sejarah Bank Sembada</h2>
+          <h2>PT Bank Perkreditan Rakyat Cahaya Wiraputra </h2>
           <p>
-            Bank Perkreditan Rakyat Multi Sembada atau yang dikenal dengan Bank
-            Sembada hadir di tengah masyarakat dengan Visi & Misi menjadi Bank
-            Perkreditan Rakyat yang terpercaya sebagai pilihan utama solusi
-            keuangan layanan perbankan dengan menjalankan prinsip "TULUS".
+            Didirikan pada tahun 1990, dengan berdasarkan Akta Pendirian No.47
+            tanggal 8 Januari 1990 dihadapan Notaris Rahmat Santoso, SH yang
+            berkedudukan di Jakarta dan telah mendapat pengesahan dari Menteri
+            Kehakiman Republik Indonesia melalui Surat Keputusan Menteri
+            Kehakiman Republik Indonesia No. C2.454.HT.01.01-Th’90 tertanggal 30
+            Januari 1990
             <br />
             <br />
-            PT. BANK PERKREDITAN RAKYAT MULTI SEMBADA DANA didirikan di Jakarta,
-            pada tanggal 26 Maret 2008 berdasarkan Akta Notaris Dradjat
-            Darmadji, SH Nomor 196 dan telah disahkan berdasarkan Surat
-            Keputusan Menteri Hukum dan HAM RI tanggal 17 April 2008 Nomor
-            AHU-19227.AH.01.01.Tahun 2008. Dalam hal menyesuaikan perkembangan
-            dan kebijakan peraturan perbankan yang ada, BPR telah melakukan
-            beberapa kali perubahan akta, dengan akta terakhir yang dibuat
-            tertanggal 02 April 2018, berdasarkan Akta Notaris Setiawan, SH
-            Nomor 15 dan telah dicatatkan berdasarkan Penerimaan Pemberitahuan
-            Perubahan Data Perseroan Nomor AHU-AH.01.03-0153954 tanggal 19 April
-            2018 di Kementerian Hukum dan HAM RI.
+            Izin Prinsip dan Izin Usaha Bank Perkreditan Rakyat berdasarkan :
+            <ul>
+              <li>
+                Persetujuan Prinsip Pendirian Bank Perkreditan Rakyat dari Bank
+                Indonesia Nomor 22/410/UPPS/PBPR tertanggal 29 Desember 1989.
+              </li>
+              <li>
+                Keputusan Menteri Keuangan Republik Indonesia nomor
+                KEP.619/KM.13/1990 tertanggal 20 Desember 1990 tentang Pemberian
+                Izin Usaha PT. Bank Perkreditan Rakyat Cahaya Wiraputra
+              </li>
+            </ul>
+            <br />
+            PT BPR Cahaya Wiraputra yang biasa dikenal dengan Bank Cahaya ini
+            pertama kali berdiri dan berkedudukan di Jalan Adisucipto No. 71
+            Kecamatan Sungai Raya, Kabupaten Kubu Raya, Propinsi Kalimatan
+            Barat. Dan mulai beroperasi sejak tanggal 03 Maret 1991. Bidang
+            usaha yang dijalankan oleh Bank Cahaya sebagai Perseroan Terbatas
+            sesuai dengan anggaran dasar yaitu menghimpun dana dari masyarakat
+            dalam bentuk deposito berjangka dan tabungan, serta memberikan
+            kredit bagi pengusaha UMKM.
             <br />
             <br />
-            BPR ini pada awalnya mengambil alih piutang (cessie) Koperasi Bank
-            Pasar Tridaya yang berkedudukan di Jakarta, berdasarkan Akta
-            Perjanjian Pengalihan Hak dan Kewajiban Nomor 153 tanggal 25 April
-            2008 yang dibuat oleh Setiawan, SH, Notaris di Jakarta, dengan modal
-            setor awal sebesar Rp.5.030.000.000,- dan sampai per 31 Desember
-            2018, modal yang telah ditempatkan sebesar Rp.12.930.000.000,-.
-            <br />
-            <br />
-            Sejak Januari 2021, Bank diakuisisi oleh PT. Hakim Putra Perkasa,
-            dan beroperasi dengan manajemen baru bertransformasi bisnis serta
-            budaya baru berorientasikan kualitas layanan, bertumbuh pesat dengan
-            total Asset sebesar Rp.108.947.565.579,-. dan Modal sebesar
-            Rp.11.711.931.501,-. pada posisi laporan keuangan Juni 2023.
-            <br />
-            <br />
-            Bank Sembada sejalan dengan Rencana Bisnis Bank jangka panjang,
-            berupaya menjadi BPR terpercaya di Jakarta Pusat didukung dengan
-            keunggulan layanan berbasis digital dan Safe Deposit Box yang aman
-            dan menguntungkan. Bank Sembada terus hadir dengan perbaikan
-            terus-terus menerus sejalan dengan kebutuhan seluruh stakeholders.
+            Pada awal beroperasinya Bank Cahaya pada tahun 1991, jumlah
+            karyawannya berjumlah 14 (empat belas) orang termasuk diantaranya 2
+            orang Direksi, yaitu Bpk. Hengky selaku Direktur Utama dan Bpk. Jun
+            Hoa alias Tony Suryajaya sebagai Direktur. Dan seiring dengan
+            perkembangan serta tenaga kerja yang dibutuhkan oleh bank, maka
+            sampai dengan 31 Juli 2023, jumlah karyawan Bank Cahaya bertambah
+            menjadi 23 orang, termasuk di dalamnya 2 orang Direksi dan 2 orang
+            Komisaris. Dan dalam perjalanan usaha Bank Cahaya sampai tahun 2023
+            ini mengalami beberapa kali perubahan dalam kepengurusan.
           </p>
         </div>
       </div>

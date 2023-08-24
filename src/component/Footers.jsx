@@ -1,34 +1,40 @@
 import "./Navibar.css";
 import Icon from "@mdi/react";
-import { mdiFacebook, mdiTwitter, mdiInstagram, mdiEmailOutline  } from "@mdi/js";
+import {
+  mdiFacebook,
+  mdiTwitter,
+  mdiInstagram,
+  mdiEmailOutline,
+} from "@mdi/js";
 const Footers = () => {
   return (
     <div className="cont-footer">
       <div className="container-footer">
         <div className="footer-about">
-          <h3>Hubungi kami</h3>
+          <h3>Kontak</h3>
           <div className="footer-1">
             <div>
-              <h5>Alamat Kami</h5>
+              <h5>PT. BPR Cahaya Wiraputra</h5>
               <p>
-                Gedung ASEAN TOWER Jalan KH Samanhudi No.10 Lantai 6, RT.01
-                RW.02 Kel. Pasar Baru, Kec. Sawah Besar, Jakarta Pusat 10710
+                Jalan Adisucipto No. 71 <br />
+                Sungai Raya <br /> Kubu Raya <br /> Kalimantan Barat Indonesia
               </p>
             </div>
             <div>
               <h5>Nomor Telepon</h5>
-              <p>Telepon: 021-3840786</p>
-              <p>Telepon: 021-3840881</p>
-              <p className="copyright">
-                COPYRIGHT © 2023 PT BPR MULTI SEMBADA DANA. ALL RIGHTS RESERVED.
-              </p>
+              <p>Telepon: (0561)-722101</p>
+              <p>Telepon: (0561)-721178</p>
             </div>
             <div>
               <h5>Email</h5>
-              <p>bprsembada@bprsembada.com</p>
+              <p>Cahaya_wiraputra@yahoo.co.id</p>
+              <p>cahayawiraputra.bpr@gmail.com</p>
             </div>
-            <h6>Melayani dengan prinsip "TULUS"</h6>
+            
           </div>
+              <p className="copyright">
+                COPYRIGHT © 2023 PT BPR Cahaya Wiraputra. ALL RIGHTS RESERVED.
+              </p>
         </div>
         <div className="footer-social">
           <h3>Sosial Media</h3>
@@ -38,7 +44,7 @@ const Footers = () => {
                 <Icon path={mdiInstagram} size={2} />
               </a>
             </li>
-            
+
             <li>
               <a href="mailto:bprsembada@bprsembada.com">
                 <Icon path={mdiEmailOutline} size={2} />

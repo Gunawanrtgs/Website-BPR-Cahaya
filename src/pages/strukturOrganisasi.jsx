@@ -72,31 +72,14 @@ const StrukturOrgn = () => {
               </p>
             </div>
           </section>
-          <div className="profil_SDM">
-            <ul>
-              <li>{item.profil[0]}</li>
-              <li>{item.profil[1]}</li>
-              <li>{item.profil[2]}</li>
-            </ul>
-          </div>
+          <div className="profil_SDM">{item.profil[0]}</div>
         </div>
       );
     });
   };
   return (
     <div>
-      <div className="hero-section-struktur">
-        <div
-          className="containers-visi"
-          data-aos="zoom-in-up"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-once="true"
-        >
-          <h1>Tentang Kami</h1>
-        </div>
-      </div>
+      <div className="hero-section-struktur"></div>
 
       <div className="cont-profil-SDM">
         <h2>Profil Manajemen Bank Sembada</h2>

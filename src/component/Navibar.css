@@ -10,11 +10,14 @@ CSS Navigation Bar
 }
 
 .icon-navBar {
-  color: #b50b0b;
+  color: var(--tealgreen);
 }
 .nav-link {
   font-size: 1.3rem;
   color: black;
+}
+.navbrand img{
+  width: 10%;
 }
 /* 
 -------------------------
@@ -64,7 +67,7 @@ CSS Footers
 
 */
 .cont-footer {
-  background-color: #b50b0b;
+  background-color:var(--tealgreen);
   padding-block: 2rem;
   color: aliceblue;
 }
