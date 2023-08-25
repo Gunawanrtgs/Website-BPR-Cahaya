@@ -101,8 +101,11 @@ const PengaduanNasabah = () => {
         </section>
         {/* Tulisan */}
         <div id="tulisan" style={{ height: "5vh" }}></div>
-        <section className="prosedur-pengaduan">
-          <div>
+        <section
+          className="prosedur-pengaduan"
+          style={{ flexDirection: "row-reverse" }}
+        >
+          <div style={{ marginLeft: "1rem" }}>
             <h1>Pengaduan secara tertulis</h1>
             <p>
               Pengaduan secara tertulis dapat disampaikan melalui surat,
@@ -143,7 +146,6 @@ const PengaduanNasabah = () => {
               tertulis kepada nasabah sebelum jangka waktu 20 (dua puluh) hari
               kerja yang pertama berakhir.
             </p>
-
             <section className="rahasia-nsb">
               <div>
                 <p>
@@ -191,10 +193,11 @@ const PengaduanNasabah = () => {
                   penyelesaian melalui fasilitas penyelesaian melalui Otoritas
                   Jasa Keuangan OJK.
                 </p>
-                
               </div>
             </section>
-            Apabila nasabah tidak puas dengan hasil penyelesaian yang disampaikan Bank , nasabah dapat melanjutkan upaya penyelesaian melalui fasilitas penyelesaian melalui Otoritas Jasa Keuangan OJK.
+            Apabila nasabah tidak puas dengan hasil penyelesaian yang
+            disampaikan Bank , nasabah dapat melanjutkan upaya penyelesaian
+            melalui fasilitas penyelesaian melalui Otoritas Jasa Keuangan OJK.
           </div>
           <img
             src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2VydmljZSUyMGNlbnRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
@@ -206,7 +209,44 @@ const PengaduanNasabah = () => {
         </section>
         {/* Apk Ojk */}
         <div id="apk-ojk" style={{ height: "5vh" }}></div>
-        <section className="prosedut-pengaduan"></section>
+        <section className="prosedur-pengaduan">
+          <div>
+            <h1>
+              Pengaduan melalui Aplikasi Portal <br />
+              Pengaduan Konsumen Otoritas Jasa Keuangan
+            </h1>
+            <p>
+              Aplikasi Portal Pengaduan Konsumen Otoritas Jasa Keuangan (APPK
+              OJK) adalah situs yang disediakan OJK untuk penanganan pengaduan
+              Konsumen agar dapat ditindaklanjuti sesuai ketentuan yang berlaku.
+              APPK OJK memiliki 3 layanan berupa:
+            </p>
+            <ol>
+              <li>
+                <i>Layanan Pemberian Informasi (Pertanyaan)</i>
+              </li>
+              <li>
+                <i>Layanan Penerimaan Informasi (Laporan)</i>
+              </li>
+              <li>
+                <i>Layanan Pengaduan</i>
+              </li>
+            </ol>
+          <div>
+            <p>APPK OJK dapat di akses melalui Link berikut :</p>
+            <a href="https://kontak157.ojk.go.id/APPKPublicPortal/">
+              Home Page – Kontak OJK Online
+            </a>
+          </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2VydmljZSUyMGNlbnRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+          />
+        </section>
       </section>
     </div>
   );

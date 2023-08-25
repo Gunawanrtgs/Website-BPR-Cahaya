@@ -1,6 +1,6 @@
 /* Footer */
 .container-client-slider {
-  background-color: #ab2424;
+  background-color: var(--tealgreen);
   /* padding: 0.5rem 1rem 1rem 1rem; */
   height: 80vh;
   margin: 0;

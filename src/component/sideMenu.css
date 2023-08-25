@@ -14,7 +14,7 @@
   /* float: left; */
   margin: 0 5px;
   overflow: hidden;
-  background: #b50b0b;
+  background: var(--tealgreen);
   /* border-radius: 50px; */
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@
   /* float: left; */
   margin: 0 5px;
   overflow: hidden;
-  background: #b50b0b;
+  background: var(--tealgreen);
   /* border-radius: 50px; */
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
@@ -40,7 +40,7 @@
   /* float: left; */
   margin: 0 5px;
   overflow: hidden;
-  background: #b50b0b;
+  background: var(--tealgreen);
   /* border-radius: 50px; */
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
